@@ -37,10 +37,12 @@ img {
   flex-direction: row;
   align-items: center;
 }
+.header-nav {
+  border-bottom: 1px solid #e7e9fc;
+}
 .container-header {
   padding-left: 15px;
   padding-right: 15px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .logo {
   text-decoration: none;
@@ -53,7 +55,7 @@ img {
   text-transform: uppercase;
   margin-top: 24px;
   margin-bottom: 24px;
-  margin-right: 0;
+  margin-right: 76px;
 }
 
 .logo-stud {
@@ -67,7 +69,6 @@ img {
   margin-top: 24px;
   margin-left: 0;
   margin-bottom: 24px;
-  margin-right: 76px;
 }
 .container-menu {
   color: #2e2f42;
@@ -174,7 +175,7 @@ img {
   margin-top: 72px;
   row-gap: 48px;
 }
-.container-list-port li {
+.container-list-items {
   width: calc((100% - 2 * 24px) / 3);
 }
 .container-text-title {
@@ -270,7 +271,7 @@ img {
   width: 264px;
 }
 .section {
-  padding: 120px 15px;
+  padding: 120px 0;
 }
 .container-content-text {
   padding: 32px 0;
