@@ -31,7 +31,7 @@ img {
   max-width: 100%;
   min-width: 264px;
 }
-header,
+.container-header,
 .conteiner-address,
 .conteiner-contakts,
 .conteiner-nav,
@@ -39,6 +39,12 @@ header,
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.container-header {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .logo {
   text-decoration: none;
@@ -74,7 +80,6 @@ header,
   line-height: 1.5em;
   letter-spacing: 0.02em;
   gap: 40px;
-  margin-top: 24px;
   margin-right: 0;
 }
 .conteiner-menu-items {
@@ -188,13 +193,9 @@ header,
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
-.conteiner {
-  width: 1158px;
-  margin: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+.container {
+  width: calc(1128px + 30px);
+  margin: 0 auto;
 }
 .conteiner-team-desc {
   background: #f4f4fd;
