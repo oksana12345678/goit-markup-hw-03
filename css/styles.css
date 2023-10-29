@@ -196,8 +196,9 @@ img {
   letter-spacing: 0.02em;
 }
 .container {
-  width: calc(1128px + 30px);
+  width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .container-team-desc {
   background: #f4f4fd;
